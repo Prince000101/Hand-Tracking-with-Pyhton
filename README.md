@@ -22,3 +22,23 @@ A Tkinter application that detects hand movement and counts the number of times 
 1. Install dependencies:  
    ```bash
    pip install opencv-python mediapipe pillow tkinter
+
+# Hand-Controlled Box Game  
+
+A Pygame-based interactive game where users can pick up and move boxes using hand gestures. This project uses MediaPipe for hand tracking and allows the user to control the movement of the boxes by making hand gestures.
+
+## 🖼 Preview  
+![Hand-Controlled Box Game](game.png)
+
+## 📌 Features  
+- Real-time hand tracking using MediaPipe  
+- Boxes change color when the hand hovers over them  
+- Grabbing and moving boxes based on hand gestures  
+- Camera feed displayed alongside the game  
+- Customizable game layout and box properties  
+
+## ⚙️ Installation  
+
+### 1. Install the required dependencies:  
+```bash
+pip install opencv-python mediapipe pygame
